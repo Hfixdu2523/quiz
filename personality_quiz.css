@@ -115,6 +115,8 @@ img {
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-top: 20px;
+    
 }
 
 #brain {
@@ -122,4 +124,22 @@ img {
     height: 250px;
     display: flex;
     margin: auto;
+}
+
+.btn2 {
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: royalblue;
+    font-size: 18px;
+    padding: 5px 20px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.btn2:hover {
+    background-color: plum;
+    color: aliceblue;
 }

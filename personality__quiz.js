@@ -211,9 +211,15 @@ function loop(){
             console.log(answer);
             var render = `
             <div id='content'>
-            <div id='judge'>${final}</div>
-            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/11/11/harold-0.jpg" alt="Man">
-            <div id='end'><h3>(Reload page to re-do quiz)</h3></div>
+                <div id='judge'>${final}</div>
+                <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/11/11/harold-0.jpg" alt="Man">
+                <div id="end">
+                    <a href="./index.html">
+                        <button class='btn2'>
+                            Reset Quiz
+                        </button>
+                    </a>
+                </div>
             </div>
             `;
             DOMquestions.insertAdjacentHTML("afterbegin", render);
